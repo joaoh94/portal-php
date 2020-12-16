@@ -1,0 +1,1608 @@
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: visible;
+  font-family: 'Fira Sans', sans-serif;
+}
+.xg_widget_main_authorization {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.xg_widget_main_authorization #xn_bar {
+  height: 0;
+}
+.container {
+  margin: auto;
+}
+.cf .lf-input__wrap {
+  margin-bottom: 24px;
+}
+.sign_form {
+  font-family: 'Fira Sans', sans-serif;
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  min-width: 728px;
+  width: 90%;
+  max-width: 920px;
+  border: 1px solid #dedede !important;
+  background-color: #ffffff !important;
+  box-shadow: none;
+  padding: 30px 48px 52px;
+  color: #979797;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.sign_form .icon_rotate {
+  display: inline-block;
+  float: right;
+  width: 24px;
+  height: 24px;
+  background-image: url("https://static.ning.com/meliora/widgets/lib/images/material-icons/image/ic_rotate_90_degrees_ccw_24px.svg?xn_version=201906250740");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  cursor: pointer;
+  z-index: 4;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.sign_form .icon_delete {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  float: right;
+  cursor: pointer;
+  background-image: url('https://static.ning.com/meliora/widgets/index/gfx/admin/trash_red.svg?xn_version=201906250740');
+}
+.sign_form .input,
+.sign_form input[type=text],
+.sign_form input[type=email],
+.sign_form input[type=password],
+.sign_form select,
+.sign_form textarea {
+  font-family: "Fira Sans", sans-serif;
+}
+.sign_form .icon.icon-help {
+  width: 20px;
+  height: 20px;
+}
+.sign_form a {
+  color: #2189da;
+}
+.sign_form input,
+.sign_form button {
+  -webkit-appearance: none;
+}
+.sign_form .input-prefix + .input-full input {
+  border-radius: 0 4px 4px 0;
+}
+.sign_form .icon-help {
+  width: 20px;
+  height: 20px;
+}
+.sign_form a {
+  color: #2189da;
+}
+.sign_form .input,
+.sign_form input[type="text"],
+.sign_form input[type="number"],
+.sign_form input[type="email"],
+.sign_form input[type="password"],
+.sign_form textarea {
+  font-family: 'Fira Sans', sans-serif;
+}
+.sign_form .shadow {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 36px;
+  bottom: 0;
+  height: 24px;
+  right: 36px;
+  box-shadow: 0 24px 31px rgba(0,0,0,0.12);
+  z-index: -2;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .shadow {
+    display: none;
+  }
+}
+@media screen and (max-width: ) {
+  .sign_form {
+    min-width: 0;
+    padding: 24px 24px 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sign_form {
+    max-width: 486px;
+    min-width: 320px;
+    padding: 26px 48px 26px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .sign_form {
+    width: 100%;
+    max-width: 355px;
+    min-width: 304px;
+    padding: 26px 22px 26px;
+  }
+}
+.sign_form * {
+  box-sizing: border-box;
+}
+.sign_form .icon {
+  box-sizing: content-box;
+}
+.sign_form .popupHelp-close {
+  right: 0.2em;
+  top: 0.2em;
+  font-size: 12px;
+}
+.sign_form:before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  left: 0;
+  border-radius: 6px 0 0 6px;
+  right: 50%;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff !important;
+  background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%);
+  background-position: 50% 100% !important;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .sign_form:before {
+    display: none;
+  }
+}
+.sign_form:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  right: 0;
+  border-radius: 0 6px 6px 0;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff;
+}
+.sign_form .socialButton {
+  width: 240px;
+  height: 48px;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 17px;
+  margin: 0 auto;
+  letter-spacing: -0.19px;
+}
+.sign_form .socialButton .icon_social {
+  margin-right: 8px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.sign_form .socialButton.facebookButton {
+  background-color: #3b5998;
+  color: #fff;
+}
+.sign_form .socialButton.facebookButton .icon_social {
+  background-size: 10px 20px;
+  background-image: url('https://static.ning.com/meliora/widgets/index/gfx/admin/icon_facebook.svg?xn_version=201906250740');
+}
+.sign_form .socialButton.twitterButton {
+  background-color: #1da1f2;
+  color: #fff;
+}
+.sign_form .socialButton.twitterButton .icon_social {
+  background-size: 20px 16px;
+  background-image: url('https://static.ning.com/meliora/widgets/index/gfx/admin/icon_twitter.svg?xn_version=201906250740');
+}
+.sign_form .socialButton.googleButton {
+  box-shadow: inset 0 0 0 1px #cecece;
+  background-color: #fff;
+  color: #757575;
+}
+.sign_form .socialButton.googleButton .icon_social {
+  background-size: 22px 22px;
+  background-image: url('https://static.ning.com/meliora/widgets/index/gfx/admin/icon_google.svg?xn_version=201906250740');
+}
+.sign_form .socialButton.yahooButton {
+  background-color: #6330e4;
+  color: #fff;
+}
+.sign_form .socialButton.yahooButton .icon_social {
+  background-size: 16px 20px;
+  background-image: url('https://static.ning.com/meliora/widgets/index/gfx/admin/icon_yahoo.svg?xn_version=201906250740');
+}
+.sign_form .socialButton.linkedinButton {
+  background-color: #0077b5;
+  color: #fff;
+}
+.sign_form .socialButton.linkedinButton .icon_social {
+  margin-top: -8px;
+  background-size: 18px 18px;
+  background-image: url('https://static.ning.com/meliora/widgets/index/gfx/admin/icon_lnin.svg?xn_version=201906250740');
+}
+.sign_form .lf-address_text {
+  font-weight: 600;
+  color: #000;
+  display: inline-block;
+  max-width: 88%;
+  vertical-align: middle;
+  line-height: 20px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-address_text {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    text-align: center;
+  }
+}
+.sign_form .lf-address_icon {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 12px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-address_icon {
+    margin: 0 auto 25px;
+  }
+}
+.sign_form .lf-title {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 43px;
+  margin-top: 0;
+}
+.sign_form .lf-block_right .lf-title {
+  margin-right: -25px;
+  margin-left: -25px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-block_right .lf-title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.sign_form .lf-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-block {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+.sign_form .lf-block_left {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+  padding: 0 26px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-block_left {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding-left: 0;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    padding: 0;
+  }
+  .sign_form .lf-block_left .lf-subtitle {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .sign_form .lf-block_left .lf-subtitle .paid_icon {
+    top: -30px;
+    left: 50%;
+    margin-left: -12px;
+    right: auto;
+  }
+}
+.sign_form .lf-subtitle {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  position: relative;
+}
+.sign_form .lf-subtitle .paid_icon {
+  position: absolute;
+  left: 100%;
+  top: -6px;
+}
+.sign_form .lf-block_left .lf-about_network .lf-subtitle {
+  margin-top: 75px;
+}
+.sign_form .lf-block_left .lf-about_network * + .lf-subtitle {
+  margin-top: 14px;
+}
+.sign_form .lf-additional_info {
+  margin-top: 38px;
+}
+.sign_form .lf-block_right {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+  padding: 0 0 0 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.sign_form .lf-block_right.socials .lf-input__wrap:first-child {
+  margin-top: auto;
+}
+.sign_form .lf-block_right.socials_email .or {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  height: 25px;
+  width: 100%;
+  color: #979797;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.16px;
+  margin: 20px 0 38px;
+}
+.sign_form .lf-block_right.socials_email .or:before,
+.sign_form .lf-block_right.socials_email .or:after {
+  content: '';
+  border-bottom: 1px solid rgba(0,0,0,0.16);
+  width: 45%;
+}
+.sign_form .lf-block_right.socials_email .or:before {
+  margin-right: auto;
+}
+.sign_form .lf-block_right.socials_email .or:after {
+  margin-left: auto;
+}
+.sign_form .lf-block_right.socials_email .lf-input__wrap.email__link {
+  color: #2189da;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.sign_form .lf-block_right.socials_email .lf-input__wrap.email__link a {
+  text-decoration: none;
+  color: #2189da;
+}
+.sign_form .lf-block_right.socials_email.socials_email_login .or {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.sign_form .lf-block_right.socials_email.socials_email_login .lf-input__wrap {
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 920px) {
+  .sign_form .lf-block_right {
+    padding: 0 0 0 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-block_right {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding: 0 0 32px 0;
+  }
+}
+.sign_form .lf-about_network {
+  padding-right: 20px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-about_network {
+    padding-right: 0;
+    padding-top: 0;
+  }
+}
+.sign_form .lf-description {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sign_form .lf-about_text {
+  color: #979797;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.sign_form .lf-network_description {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-network_description {
+    margin-bottom: 15px;
+  }
+}
+.sign_form .lf-img {
+  margin: 0 24px 0 0;
+  flex: 0 0 96px;
+  width: 96px;
+  height: 96px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+@media screen and (max-width: 952px) {
+  .sign_form .lf-img {
+    flex: 0 0 72px;
+    width: 72px;
+    height: 72px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-img {
+    flex: 0 0 72px;
+    width: 72px;
+    height: 72px;
+  }
+}
+.sign_form .lf-img a {
+  display: inline-block;
+}
+.sign_form .lf-img img {
+  display: block;
+  max-width: 100%;
+}
+.sign_form .lf-trial_text {
+  color: #979797;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.sign_form .lf-trial_text b,
+.sign_form .lf-trial_text strong {
+  font-weight: bold;
+  color: #000;
+}
+.sign_form .lf-trial_text a {
+  color: #2189da;
+  font-weight: 500;
+}
+.sign_form .auth_copy {
+  margin: 20px 0 0 0;
+  color: rgba(0,0,0,0.51);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.14px;
+}
+.sign_form .auth_copy svg {
+  vertical-align: middle;
+  margin-left: 2px;
+}
+.sign_form .auth_copy svg path {
+  fill: #000;
+  transition: all 300ms ease;
+}
+.sign_form .auth_copy svg:hover {
+  fill: #3e3e3e;
+  transition: all 300ms ease;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .auth_copy {
+    text-align: center;
+  }
+}
+.sign_form .paid_icon {
+  width: 24px;
+  height: 24px;
+  transform: scale(0.92);
+  display: inline-block;
+}
+.sign_form .paid_icon svg {
+  width: 100%;
+}
+.sign_form .dy-button {
+  min-width: 144px;
+  height: 36px;
+  border-radius: 0;
+  background: transparent;
+  -webkit-appearance: none;
+  background-image: none;
+  background-color: #75af2c;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-style: normal;
+}
+.sign_form .dy-button[disabled] {
+  color: rgba(255,255,255,0.22);
+}
+@media screen and (max-width: 952px) {
+  .sign_form .dy-button {
+    width: 100%;
+    max-width: 312px;
+    height: 52px;
+    font-size: 16px;
+    margin: 0 auto 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sign_form .dy-button {
+    width: 100%;
+    max-width: 292px;
+    height: 52px;
+    font-size: 16px;
+    margin: 10px auto 16px;
+  }
+}
+.sign_form .dy-button:hover {
+  border-radius: 0;
+  border: none;
+  -webkit-appearance: none;
+  background: transparent;
+  background-color: #87c72d;
+}
+.sign_form .dy-button:hover[disabled] {
+  background-color: #75af2c;
+}
+.sign_form .dy-button.dy-button-login {
+  width: 118px;
+  margin: 0 0 0 auto;
+}
+@media screen and (max-width: 952px) {
+  .sign_form .dy-button.dy-button-login {
+    height: 52px;
+    margin: 10px 0 10px auto;
+  }
+}
+.sign_form .signUp_signIn__link {
+  text-align: center;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: auto;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .signUp_signIn__link {
+    margin-top: 43px;
+  }
+}
+.sign_form .signUp_signIn__link a {
+  font-weight: 500;
+  color: #2189da;
+}
+.sign_form .subtitle {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.27px;
+  margin-bottom: 18px;
+  min-width: 100%;
+}
+.sign_form .lf-input__wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.sign_form .lf-input__wrap.social_login {
+  margin-right: auto;
+  margin-left: auto;
+}
+.sign_form .lf-input__wrap.social_login .socialButton {
+  margin-bottom: 24px;
+}
+.sign_form .lf-input__wrap.social_login .socialButton:last-child {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-input__wrap.social_login .socialButton {
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    margin: 20px auto 0;
+    text-align: center;
+  }
+  .sign_form .lf-input__wrap.social_login .socialButton .icon_social {
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .sign_form .lf-input__wrap.social_login .socialButton .icon_social + span {
+    display: none;
+  }
+  .sign_form .lf-input__wrap.social_login .socialButton:last-child:first-child {
+    width: 240px;
+    height: 48px;
+  }
+  .sign_form .lf-input__wrap.social_login .socialButton:last-child:first-child .icon_social {
+    margin-right: 8px;
+  }
+  .sign_form .lf-input__wrap.social_login .socialButton:last-child:first-child .icon_social + span {
+    display: block;
+  }
+}
+.sign_form .lf-input__wrap.mt20 {
+  margin-top: 15px;
+}
+.sign_form .lf-input__wrap .forgot {
+  font-size: 12px;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-input__wrap .forgot {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 332px) {
+  .sign_form .lf-input__wrap .forgot {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .sign_form .lf-input__wrap.lf-input__wrap_wide {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide select {
+  margin: 0 2px;
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide select[name="birthdateYear"],
+.sign_form .lf-input__wrap.lf-input__wrap_wide select[name="birthdateDay"] {
+  max-width: 82px;
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide .popupHelp {
+  margin: 0 auto 0 5px;
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide .label__text {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 130px;
+  text-align: left;
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide .label__text[for="dob-month"] {
+  max-width: 62px;
+}
+html[lang="de"] .sign_form .lf-input__wrap.lf-input__wrap_wide .label__text[for="dob-month"] {
+  max-width: 84px;
+  font-size: 13.5px;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 959px) {
+  .sign_form .lf-input__wrap.lf-input__wrap_wide .label__text {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: none;
+    margin-top: 0;
+  }
+  .sign_form .lf-input__wrap.lf-input__wrap_wide .label__text[for="dob-month"] {
+    max-width: none;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 520px) {
+  .sign_form .lf-input__wrap.lf-input__wrap_wide .label__text {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 135px;
+    margin-top: 0;
+  }
+  .sign_form .lf-input__wrap.lf-input__wrap_wide .label__text[for="dob-month"] {
+    max-width: none;
+  }
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide .label__text + input[type="text"] {
+  width: 100%;
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide .label__text + select {
+  margin-left: 0;
+  width: 100%;
+  min-width: 91px;
+  max-width: 130px;
+}
+@media screen and (max-width: 370px) {
+  .sign_form .lf-input__wrap.lf-input__wrap_wide .label__text + select {
+    max-width: 98px;
+  }
+}
+.sign_form .lf-input__wrap.lf-input__wrap_wide .lf-input__select {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  position: relative;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) and (min-width: 520px) {
+  .sign_form .lf-input__wrap.lf-input__wrap_wide .lf-input__select {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: auto;
+  }
+}
+.sign_form .lf-input__wrap select {
+  padding: 5px 8px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: #ffffff;
+}
+.sign_form .lf-input__wrap select#dob-month {
+  min-width: 120px;
+}
+@media screen and (max-width: 952px) {
+  .sign_form .lf-input__wrap select {
+    padding: 5px 8px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .sign_form .lf-input__wrap select#dob-month {
+    min-width: 87px;
+  }
+}
+.sign_form .lf-input__wrap.notice-errorHighlight.captcha {
+  border: 1px solid #de3c4b;
+  padding: 5px;
+}
+.sign_form .lf-input__wrap.notice-errorHighlight select,
+.sign_form .lf-input__wrap.notice-errorHighlight textarea {
+  border: 1px solid #de3c4b;
+  background-color: #ffffff;
+}
+.sign_form .lf-input__wrap span.error {
+  display: none;
+}
+.sign_form .lf-input__wrap.notice-errorHighlight span.error {
+  display: block;
+  color: #da2721;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.sign_form .lf-input__wrap.notice-errorHighlight span.error a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #da2721;
+}
+.sign_form .lf-input__wrap.privacy .checking_form {
+  width: 100%;
+}
+.sign_form .lf-input__wrap.privacy p {
+  margin: 0 0 10px !important;
+}
+.sign_form .lf-input__wrap.privacy label {
+  min-height: 20px;
+  color: #979797;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  cursor: pointer;
+}
+.sign_form .lf-input__wrap.privacy label a {
+  color: #279af1;
+  text-decoration: underline;
+}
+.sign_form .notice-errorMessage {
+  margin-top: auto;
+  background: transparent;
+  color: #da2721;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.sign_form .notice-errorMessage p {
+  color: #da2721;
+  padding: 0;
+  font-size: 14px;
+  margin: 0;
+}
+.sign_form .notice-errorMessage + .lf-input__wrap {
+  margin-top: auto;
+}
+.sign_form textarea {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+}
+.sign_form input[type="text"],
+.sign_form input[type="email"],
+.sign_form input[type="password"] {
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0 8px;
+}
+.sign_form input[type="text"].notice-errorHighlight,
+.sign_form input[type="email"].notice-errorHighlight,
+.sign_form input[type="password"].notice-errorHighlight {
+  border: 1px solid #de3c4b;
+}
+.sign_form input[type="text"].datepicker,
+.sign_form input[type="email"].datepicker,
+.sign_form input[type="password"].datepicker {
+  background-image: url("https://static.ning.com/meliora/widgets/index/gfx/admin/date.svg?xn_version=201906250740");
+  background-position: 8px 50%;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.sign_form input[type="text"].lf-question::-webkit-input-placeholder {
+  font-size: 12px;
+}
+.sign_form input[type="text"].lf-question::-moz-placeholder {
+  font-size: 12px;
+}
+.sign_form input[type="text"].lf-question:-ms-input-placeholder {
+  font-size: 12px;
+}
+.sign_form input[type="text"].lf-question:-moz-placeholder {
+  font-size: 12px;
+}
+.sign_form .input-prefixed input[type="text"] {
+  height: 33px;
+}
+.sign_form .lf-input__wrap.notice-errorHighlight input[type="text"],
+.sign_form .lf-input__wrap.notice-errorHighlight  input[type="email"],
+.sign_form .lf-input__wrap.notice-errorHighlight  input[type="password"] {
+  border: 1px solid #de3c4b;
+}
+.sign_form .lf-input__wrap label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+}
+.sign_form .lf-input__wrap.notice-errorHighlight > label {
+  color: #ff0000;
+}
+.sign_form .lf-input__wrap.notice-errorHighlight label:before {
+  border-color: #de3c4b;
+}
+.sign_form .lf-input__wrap .label__text {
+  width: 55%;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+}
+.sign_form .lf-input__wrap .label__text + input[type="text"] {
+  width: 42%;
+}
+.sign_form .lf-input__wrap .label__text_left {
+  min-width: 110px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .sign_form .lf-input__wrap .label__text_left {
+    min-width: 67px;
+  }
+}
+.sign_form .lf-input__wrap .label__text_left + input[type="text"] {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  width: 100%;
+}
+.sign_form .lf-input__wrap .label__text_left + .profileQuestionForm-genderOptions,
+.sign_form .lf-input__wrap .label__text_left + .profileQuestionForm-options {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+.sign_form .g-recaptcha {
+  margin: 0 auto;
+}
+@media screen and (max-width: 468px) {
+  .sign_form .g-recaptcha > div > div {
+    position: absolute;
+    width: 304px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.sign_form_p2 {
+  min-width: 320px;
+  max-width: 612px;
+  border: 1px solid #dedede;
+  background-color: #ffffff;
+  color: #000;
+}
+.sign_form_p2 .private {
+  margin-bottom: 13px;
+  margin-top: -15px;
+}
+.sign_form_p2 .private label {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 14px;
+  color: #979797;
+}
+.sign_form_p2 .private label img {
+  margin-right: 8px;
+  margin-left: 2px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .private label {
+    font-size: 12px;
+  }
+}
+.sign_form_p2 .private p {
+  position: relative;
+}
+.sign_form_p2 .private svg {
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.sign_form_p2 .private svg + label {
+  position: relative;
+  padding-left: 20px;
+}
+@media screen and (max-width: 544px) {
+  .sign_form_p2 .lf-input__wrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .sign_form_p2 .lf-input__wrap .label__text_left {
+    margin-bottom: 8px;
+  }
+}
+.sign_form_p2 .lf-input__wrap.lf-city,
+.sign_form_p2 .lf-input__wrap.lf-zip {
+  max-width: 278px;
+}
+.sign_form_p2 .lf-input__wrap.privacy label,
+.sign_form_p2 .lf-input__wrap .privacy label {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 14px;
+  color: #979797;
+}
+.sign_form_p2 .lf-input__wrap.privacy label img,
+.sign_form_p2 .lf-input__wrap .privacy label img {
+  margin-right: 8px;
+  margin-left: 2px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .lf-input__wrap.privacy label,
+  .sign_form_p2 .lf-input__wrap .privacy label {
+    font-size: 12px;
+  }
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide .label__text {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: none;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide .label__text + input[type="text"] {
+  width: 100%;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide .label__text + select {
+  margin-left: 0;
+  width: 100%;
+  min-width: 95px;
+  max-width: 278px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .lf-input__wrap.lf-input__wrap_wide .label__text + select {
+    max-width: none;
+  }
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide img {
+  margin-top: -3px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide img + .label__text {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 96%;
+  -ms-flex: 0 0 96%;
+  flex: 0 0 96%;
+  max-width: calc(100% - 20px);
+  margin-right: 0;
+  margin-left: auto;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .lf-input__wrap.lf-input__wrap_wide img + .label__text.small_hide + input[type="text"],
+  .sign_form_p2 .lf-input__wrap.lf-input__wrap_wide img + .label__text.small_hide + textarea {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 96%;
+    -ms-flex: 0 0 96%;
+    flex: 0 0 96%;
+    max-width: calc(100% - 20px);
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date .label__text + input[type="text"] {
+  width: 100%;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date .label__text + select {
+  margin-left: 0;
+  width: 50%;
+  min-width: 91px;
+  max-width: 42%;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date .label__text + select + input[type="text"] {
+  width: auto;
+  max-width: 72px;
+  margin-left: 10px;
+}
+.sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date .label__text + select + input[type="text"] + input[type="text"] {
+  width: auto;
+  max-width: 88px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+@media screen and (max-width: 378px) {
+  .sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date .label__text + select {
+    max-width: 39%;
+    width: 40%;
+  }
+  .sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date .label__text + select + input[type="text"] {
+    max-width: none;
+    width: 62px;
+    margin-left: 5px;
+  }
+  .sign_form_p2 .lf-input__wrap.lf-input__wrap_wide.profileQuestionForm-date .label__text + select + input[type="text"] + input[type="text"] {
+    max-width: 78px;
+    margin-left: 5px;
+  }
+}
+.sign_form_p2:before,
+.sign_form_p2:after {
+  background: #fff;
+}
+.sign_form_p2 .lf-title {
+  margin-bottom: 30px;
+}
+.sign_form_p2 .lf-subtitle {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .small_hide {
+    display: none !important;
+  }
+}
+.sign_form_p2 .small_show {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .small_show {
+    display: inline-block;
+  }
+}
+.sign_form_p2 .default_cover__img {
+  box-sizing: border-box;
+  margin: 0 auto 24px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.sign_form_p2 .default_cover__img:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  z-index: 0;
+  border-radius: 13px;
+  background-color: rgba(39,154,241,0.14);
+}
+.sign_form_p2 .default_cover__img svg {
+  margin-top: -32px;
+}
+.sign_form_p2 .default_cover__img >img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  background-color: #fff;
+  width: 96px;
+}
+.sign_form_p2 .default_cover__img .imagePicker-dragArea {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.sign_form_p2 .default_cover__img .imagePicker-dragArea.is-hidden {
+  display: none;
+}
+.sign_form_p2 .default_cover__img .imagePicker-dragArea .drop {
+  margin-right: -20px;
+}
+.sign_form_p2 .default_cover__img .imagePicker-dragArea .help_text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  padding: 0 10px;
+  text-align: center;
+  color: #879097;
+  font-size: 12px;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .default_cover__img .imagePicker-dragArea .help_text {
+    border-top: 1px solid #c3dff4;
+    bottom: 15px;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+}
+.sign_form_p2 .default_cover__img .imagePicker-dragArea .or {
+  margin: 0 16px;
+}
+.sign_form_p2 .default_cover__img .imagePicker-dragArea .is-dragover {
+  background-color: rgba(45,45,45,0.4);
+}
+.sign_form_p2 .default_cover__img .imagePicker-dragArea .profile_preview_button {
+  height: 32px;
+  line-height: 32px;
+  min-width: 135px;
+  cursor: pointer;
+  border: 1px solid #d6d6d6;
+  background-color: #ffffff;
+  color: #46494c;
+  font-size: 14px;
+  font-weight: 500;
+  float: right;
+  text-align: center;
+  margin: 0 0 0 20px;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .default_cover__img .imagePicker-dragArea .profile_preview_button {
+    margin: -28px 0 0 20px;
+  }
+}
+.sign_form_p2 .default_cover__img.loaded_image {
+  margin-bottom: 47px;
+  margin-top: 36px;
+}
+.sign_form_p2 .default_cover__img.loaded_image:after {
+  display: none;
+}
+.sign_form_p2 .default_cover__img.loaded_image .imagePicker-dragArea {
+  opacity: 0;
+}
+.sign_form_p2 .profileQuestionForm-genderOptions label,
+.sign_form_p2 .profileQuestionForm-options label {
+  font-weight: 400;
+  margin-right: 15px;
+}
+.sign_form_p2 .profileQuestionForm-genderOptions label:last-child,
+.sign_form_p2 .profileQuestionForm-options label:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 767px) {
+  .sign_form_p2 .profileQuestionForm-genderOptions label,
+  .sign_form_p2 .profileQuestionForm-options label {
+    font-size: 12px;
+  }
+}
+.sign_form_p2 .profileQuestionForm-genderOptions #doNotDisplayGender  + label,
+.sign_form_p2 .profileQuestionForm-options #doNotDisplayGender  + label {
+  margin-left: 20px;
+}
+.sign_form_p2 .footer_regprofile {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+@media screen and (max-width: 952px) {
+  .sign_form_p2 .footer_regprofile {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .sign_form_p2 .footer_regprofile .auth_copy {
+    text-align: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+input.xg_check__styled,
+.profileQuestionForm-genderOptions input[type="checkbox"],
+.profileQuestionForm-options input[type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+input.xg_check__styled + label,
+.profileQuestionForm-genderOptions input[type="checkbox"] + label,
+.profileQuestionForm-options input[type="checkbox"] + label {
+  padding-left: 25px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: 23px;
+}
+input.xg_check__styled + label:before,
+.profileQuestionForm-genderOptions input[type="checkbox"] + label:before,
+.profileQuestionForm-options input[type="checkbox"] + label:before {
+  box-sizing: border-box;
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid #c6c6c6;
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  top: 2px;
+}
+input.xg_check__styled:required:invalid,
+input.xg_check__styled:focus:invalid + label:before,
+.profileQuestionForm-genderOptions input[type="checkbox"]:required:invalid,
+.profileQuestionForm-genderOptions input[type="checkbox"]:focus:invalid + label:before,
+.profileQuestionForm-options input[type="checkbox"]:required:invalid,
+.profileQuestionForm-options input[type="checkbox"]:focus:invalid + label:before {
+  border-color: #de3c4b;
+}
+input.xg_check__styled:checked + label:before,
+.profileQuestionForm-genderOptions input[type="checkbox"]:checked + label:before,
+.profileQuestionForm-options input[type="checkbox"]:checked + label:before {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2189da;
+  background-color: #2189da;
+  background-image: url("https://static.ning.com/meliora/widgets/index/gfx/admin/check.svg?xn_version=201906250740");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.notice-errorHighlight input.xg_check__styled + label:before,
+.notice-errorHighlight .profileQuestionForm-genderOptions input[type="checkbox"] + label:before,
+.notice-errorHighlight .profileQuestionForm-options input[type="checkbox"] + label:before {
+  border: 1px solid #de3c4b;
+}
+.notice-errorHighlight input.xg_check__styled:checked + label:before,
+.notice-errorHighlight .profileQuestionForm-genderOptions input[type="checkbox"]:checked + label:before,
+.notice-errorHighlight .profileQuestionForm-options input[type="checkbox"]:checked + label:before {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2189da;
+  background-color: #2189da;
+  background-image: url("https://static.ning.com/meliora/widgets/index/gfx/admin/check.svg?xn_version=201906250740");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.lf-input__wrap.still {
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.lf-input__wrap.still a {
+  color: #279af1;
+  text-decoration: underline;
+}
+.lf-input__wrap.still a:hover {
+  text-decoration: none;
+}
+input.xg_radio__styled,
+.profileQuestionForm-genderOptions input[type="radio"],
+.profileQuestionForm-options input[type="radio"] {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+}
+input.xg_radio__styled + label,
+.profileQuestionForm-genderOptions input[type="radio"] + label,
+.profileQuestionForm-options input[type="radio"] + label {
+  padding-left: 25px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: 23px;
+}
+input.xg_radio__styled + label:before,
+.profileQuestionForm-genderOptions input[type="radio"] + label:before,
+.profileQuestionForm-options input[type="radio"] + label:before {
+  box-sizing: border-box;
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #c6c6c6;
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 2px;
+}
+input.xg_radio__styled:checked + label:before,
+.profileQuestionForm-genderOptions input[type="radio"]:checked + label:before,
+.profileQuestionForm-options input[type="radio"]:checked + label:before {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #2189da;
+  box-shadow: inset 0 0 0 2px #2189da;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.signInPage .lf-block_left {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+*::-ms-backdrop,
+.sign_form .lf-block_right,
+.sign_form .lf-block_left {
+  flex: 0 0 44%;
+}
+@media screen and (max-width: 767px) {
+  *::-ms-backdrop,
+  .sign_form .lf-block_right,
+  .sign_form .lf-block_left {
+    flex: 0 0 100%;
+  }
+}
+*::-ms-backdrop,
+.xg_widget_main_authorization {
+  height: 100%;
+}
+*::-ms-backdrop,
+.container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+*::-ms-backdrop,
+.sign_form {
+  overflow: hidden;
+}
+.signin_page .lf-input__wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.signin_page .lf-input__wrap.notice-errorHighlight {
+  margin-bottom: 0;
+}
+.signin_page .lf-input__wrap.notice-errorHighlight span.error {
+  position: relative;
+  min-height: 20px;
+  margin-bottom: 4px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+.signin_page .lf-input__wrap.notice-errorHighlight span.error p,
+.signin_page .lf-input__wrap.notice-errorHighlight span.error div {
+  line-height: 21px;
+}
+.notice-warningMessage,
+.notice-warningMessage_icon {
+  background: #fff9dd;
+  max-width: 672px;
+  margin: 0 auto 16px;
+  padding: 8px 32px 8px;
+  border-radius: 3px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+@media screen and (max-width: 720px) {
+  .notice-warningMessage,
+  .notice-warningMessage_icon {
+    padding: 8px 22px 8px;
+  }
+}
+.notice-warningMessage_icon {
+  background: #fff9dd url('https://static.ning.com/meliora/widgets/shared/gfx/alert_sign.svg?xn_version=201906250740') scroll no-repeat 32px 50%;
+  max-width: 745px;
+  padding: 8px 75px 8px;
+}
+@media screen and (max-width: 720px) {
+  .notice-warningMessage_icon {
+    padding: 8px 22px 8px 42px;
+    background: #fff9dd url('https://static.ning.com/meliora/widgets/shared/gfx/alert_sign.svg?xn_version=201906250740') scroll no-repeat 9px 50%;
+    background-size: 22px auto;
+  }
+}
+.notice-warningMessage[style="display: block"] + .sign_form,
+.notice-warningMessage_icon[style="display: block"] + .sign_form {
+  margin-top: 46px;
+}
+*::-ms-backdrop,
+.sign_form .lf-block_right,
+.sign_form .lf-block_left {
+  flex: 0 0 45%;
+}
